@@ -1,13 +1,12 @@
-########################################################
-# SUMMER ENGINEERING ACADEMY 2022                      #
-# __     __   __       __  ___  ___        __          #
-#|__) | /  \ /__` \ / /__`  |  |__   |\/| /__`         #
-#|__) | \__/ .__/  |  .__/  |  |___  |  | .__/         #
-#    ___       __          ___  ___  __          __    #
-#   |__  |\ | / _` | |\ | |__  |__  |__) | |\ | / _`   #
-#   |___ | \| \__> | | \| |___ |___ |  \ | | \| \__>   #
-# COLLEGE OF ENGINEERING, UNIVERSITY OF ARIZONA        #
-########################################################
+################################################
+####### SUMMER ENGINEERING ACADEMY 2022 ########
+##+-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+#######
+##|B| |i| |o| |s| |y| |s| |t| |e| |m| |s|#######
+##+-+-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+#
+####|E| |n| |g| |i| |n| |e| |e| |r| |i| |n| |g|#
+####+-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+ +-+#
+# COLLEGE OF ENGINEERING,UNIVERSITY OF ARIZONA #
+################################################
 # Sends a message to a Discord Server/Channel via webhook. To create a webhook:
 # 1) Go to your Discord Server Settings > Integrations > Webhooks and click 'Create Webhook' or 'New Webhook'
 # 2) Give webhook a name and specify a channel if different than #general
