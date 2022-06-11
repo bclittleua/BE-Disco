@@ -1,6 +1,6 @@
 # Webhooks
 ## FYI
-- API = Application Programming Interface. A way for applications to communication, typically via the internets.
+- API = Application Programming Interface. A way for applications to communicate, typically via the internets.
 - WEBHOOK = an API that sends data in one direction via the HTTP protocol, usually referred to as a POST method
 - `hook.py` is heavily commented to explain exactly what is going on
 - `hook_nc.py` is all code and no comment
