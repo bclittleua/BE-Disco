@@ -1,5 +1,6 @@
 # Installing Python 3.4+
-For windows, mac, linux (pi)
+For Windows, Mac OSX, Linux, and Raspberry Pi
+
 
 1. Download latest version here: https://www.python.org/downloads/
 2. Run the installer
