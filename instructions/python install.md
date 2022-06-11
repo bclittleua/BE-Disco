@@ -1,5 +1,5 @@
-# installing python 3.4+
-for windows, mac, linux (pi)
+# Installing Python 3.4+
+For windows, mac, linux (pi)
 
 1. Download latest version here: https://www.python.org/downloads/
 2. Run the installer
@@ -7,7 +7,7 @@ for windows, mac, linux (pi)
 ![Example](https://miro.medium.com/max/1344/0*7nOyowsPsGI19pZT.png)
 
 3. After installer completes, verify in command prompt with: `<python --version>`
-4. upgrade pip: `<python -m pip install --upgrade pip>`
+4. Upgrade the "python installer program" a.k.a "pip": `<python -m pip install --upgrade pip>`
     - when complete, verify with: `<pip list>`
 5. installing dependencies
     - discord lib(s): `<pip install discord>`
