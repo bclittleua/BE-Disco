@@ -25,24 +25,24 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
 
 # First Time Discord Setup
 1. First create a discord account, strongly suggest 2FA!
-2. then setup developer mode, 
-3. toggle user settings>advanced>developer mode ON
-4. Create a new discord server, or join SEA-BE(prepared for class)
-5. create a webhook:
-   - server settings> integrations>view webhooks>new webook
-7. give it a name and assign to a channel (#general is fine)
-8. goto https://discord.com/developers/applications
-9. click New Application
-10. give it a unique name
-11. click Bot on left hand menu
-12. click on Add Bot, 
-13. then 'Yes, do it!'
-14. click on 'Reset Token'
-15. copy the token ID to notepad
-16. toggle Public Bot to OFF
-17. toggle Presence Intent to ON
-18. click on OAuth2
-19. copy Client ID to notepad
-20. add new bot to your private server
-    - https://discord.com/api/oauth2/authorize?client_id=000000&permissions=8&scope=bot 
-    - replace the zeros with your own client_id from above
+2. then setup developer mode: 
+   - toggle `User Settings > Advanced > Developer Mode` to ON
+3. Join server I prepped for class (link in zoom)
+4. Create your own discord server
+5. Create a webhook:
+   - `Server Settings > Integrations > Add Webook`
+6. Goto https://discord.com/developers/applications
+7. Click `New Application`
+8. Give it a unique name
+9. Click `Bot` on left hand menu
+10. click on `Add Bot`, 
+11. then `Yes, do it!`
+12. Click on `Reset Token`
+13. Copy the token ID to notepad (used later for `tok.en`)
+14. Toggle 'Public Bot' to OFF
+15. Toggle 'Presence Intent' to ON
+16. Click on 'OAuth2' on left hand menu
+17. Copy Client ID to notepad
+18. Add new bot to your private server
+    - https://discord.com/api/oauth2/authorize?client_id=0000000000000000&permissions=8&scope=bot 
+    - replace all the zeros in this URL with the client_id you copied earlier
