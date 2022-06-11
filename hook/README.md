@@ -8,7 +8,7 @@
 ## Using your webhook
 The first thing we are going to do is learn how to use a Discord webhook. If you followed the [instructions](../instructions) you should already have the Webhook URL copied to notepad. 
 
-1. Copy `hook.py` code to your PC
+1. Copy `hook.py` (or `hook_nc.py`)code to your PC
 2. Paste your WEBHOOK URL where indicated in `hook.py`
 3. Save `hook.py` to your desktop in a folder named `seabe`
 4. From the Windows Command Prompt, type `python c:\users\YOUR-USERNAME\Desktop\seabe\hook.py "hello world!"`
