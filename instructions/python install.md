@@ -1,9 +1,9 @@
-#installing python 3.4+#
+# installing python 3.4+
 - windows, mac, linux (pi)
 
 1. Download latest version here: https://www.python.org/downloads/
 2. Run the installer
-  -- be sure to check 'Add Python 3.x to PATH' for windows
+  - be sure to check box that says 'Add Python 3.x to PATH' for windows
 3. After installer completes, verify in command prompt with <python --version>
 4. upgrade pip: <python -m pip install --upgrade pip>
   - when complete, verify with <pip list>
