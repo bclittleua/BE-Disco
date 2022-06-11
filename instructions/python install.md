@@ -9,14 +9,14 @@ For windows, mac, linux (pi)
 3. After installer completes, verify in command prompt with: `<python --version>`
 4. Upgrade the "python installer program" a.k.a "pip": `<python -m pip install --upgrade pip>`
     - when complete, verify with: `<pip list>`
-5. installing dependencies
+5. Installing dependencies for projects in this repo:
     - discord lib(s): `<pip install discord>`
     - youtube tools lib: `<pip install youtube_dl>`
-6. when complete, verify with: `<pip list>`
+6. When complete, verify with: `<pip list>`
 
     
 # Not Required:
-- music bot requires the ffmpeg codec to function.
-    - windows users can find instructions here: https://www.wikihow.com/Install-FFmpeg-on-Windows
-    - linux users can install with a package manager like apt: `<apt-get install ffmpeg>`
-    - mac users can also install with a package manager, but need to install a package manager first. I recommend homebrew at http://brew.sh: `<brew install ffmpeg>`.
+- The music bot requires the ffmpeg codec to function.
+    - Windows users can find instructions here: https://www.wikihow.com/Install-FFmpeg-on-Windows
+    - Linux users can install with a package manager like apt: `<apt-get install ffmpeg>`
+    - Mac users can also install with a package manager, but need to install a package manager first. I recommend Homebrew at http://brew.sh: `<brew install ffmpeg>`
