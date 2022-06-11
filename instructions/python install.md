@@ -9,11 +9,11 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
 
 3. After installer completes, verify in command prompt with: `<python --version>`
 4. Upgrade the "python installer program" a.k.a "pip": `<python -m pip install --upgrade pip>`
-    - When complete, verify with: `<pip list>`
+    - When complete, verify in command prompt with: `<pip list>`
 5. Installing dependencies for projects in this repo:
     - Discord lib(s): `<pip install discord>`
     - Youtube tools lib: `<pip install youtube_dl>`
-6. When complete, verify with: `<pip list>`
+6. When complete, verify in command prompt with: `<pip list>`
 
     
 ## Not Required:
