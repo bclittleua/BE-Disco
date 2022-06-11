@@ -3,7 +3,7 @@ This repo contains several single-purpose examples of bots to run on a Discord s
 
 ## Step 0: Getting Started
 - **Instructions**
-  - how to install python and other dependencies for the projects in this repo 
+  - How to install Python and other dependencies for the projects in this repo. 
 
 ## Step 1: The Backbone
 - **Hook**
