@@ -10,9 +10,9 @@ This repo contains several single-purpose examples of bots to run on a Discord s
   - NOT a bot, but the first step in making an interactive bot. 
 ## Step 2: The Muscles
  - **logviewer** 
-  - this bot reads data from a log and returns it to chat
+     - this bot reads data from a log and returns it to chat
 - **sc_runner** 
-  - this bot will run a script from a predefined directory
+    - this bot will run a script from a predefined directory
 
 ## Step 3: The Senses
 - **camera** 
