@@ -11,7 +11,8 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
     - When complete, verify in command prompt with: `<pip list>`
 5. Installing dependencies for projects in this repo:
     - Discord lib(s): `<pip install discord>`
-    - Youtube tools lib: `<pip install youtube_dl>`
+    - Request tools: `pip install requests`
+    - Youtube tools lib: `<pip install youtube_dl>`    
 6. When complete, verify in command prompt with: `<pip list>`
 
 # First Time Discord Setup
