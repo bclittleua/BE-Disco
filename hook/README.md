@@ -1,6 +1,11 @@
+# Webhooks
+## FYI
 - API = Application Programming Interface. A way for applications to communication, typically via the internets.
 - WEBHOOK = an API that sends data in one direction via the HTTP protocol, usually referred to as a POST method
+- `hook.py` is heavily commented to explain exactly what is going on
+- `hook_nc.py` is all code and no comment
 
+## Using your webhook
 The first thing we are going to do is learn how to use a Discord webhook. If you followed the [instructions](../instructions) you should already have the Webhook URL copied to notepad. 
 
 1. Copy `hook.py` code to your PC
