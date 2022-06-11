@@ -4,7 +4,8 @@ for windows, mac, linux (pi)
 1. Download latest version here: https://www.python.org/downloads/
 2. Run the installer
     - be sure to check box that says 'Add Python 3.x to PATH' for windows
-!(https://miro.medium.com/max/1344/0*7nOyowsPsGI19pZT.png)
+![Example](https://miro.medium.com/max/1344/0*7nOyowsPsGI19pZT.png)
+
 3. After installer completes, verify in command prompt with: `<python --version>`
 4. upgrade pip: `<python -m pip install --upgrade pip>`
     - when complete, verify with: `<pip list>`
