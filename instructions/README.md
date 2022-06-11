@@ -6,7 +6,6 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
 2. Run the installer
     - Be sure to check box that says 'Add Python 3.x to PATH' for windows
 ![Example](https://miro.medium.com/max/1344/0*7nOyowsPsGI19pZT.png)
-
 3. After installer completes, verify in command prompt with: `<python --version>`
 4. Upgrade the "python installer program" a.k.a "pip": `<python -m pip install --upgrade pip>`
     - When complete, verify in command prompt with: `<pip list>`
@@ -15,17 +14,11 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
     - Youtube tools lib: `<pip install youtube_dl>`
 6. When complete, verify in command prompt with: `<pip list>`
 
-    
-### Optional:
-- The music bot requires the ffmpeg codec to function.
-    - Windows users can find instructions here: https://www.wikihow.com/Install-FFmpeg-on-Windows
-    - Linux users can install with a package manager like apt: `<apt-get install ffmpeg>`
-    - Mac users can also install with a package manager, but need to install a package manager first. I recommend Homebrew at http://brew.sh: `<brew install ffmpeg>`
-
-
 # First Time Discord Setup
-1. First create a discord account, strongly suggest 2FA!
-2. then setup developer mode: 
+1. First create a discord account at https://discord.com/. 
+   - Strongly suggest you set up 2FA, but skip this for now to save time.
+   - Also in the interest of time, please run in browser if you don't already have the discord app installed on your computer.
+2. Setup developer mode: 
    - toggle `User Settings > Advanced > Developer Mode` to ON
 3. Join server I prepped for class (link in zoom)
 4. Create your own discord server
@@ -46,3 +39,9 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
 18. Add new bot to your private server
     - https://discord.com/api/oauth2/authorize?client_id=0000000000000000&permissions=8&scope=bot 
     - replace all the zeros in this URL with the client_id you copied earlier
+
+### Optional:
+- The music bot requires the ffmpeg codec to function.
+    - Windows users can find instructions here: https://www.wikihow.com/Install-FFmpeg-on-Windows
+    - Linux users can install with a package manager like apt: `<apt-get install ffmpeg>`
+    - Mac users can also install with a package manager, but need to install a package manager first. I recommend Homebrew at http://brew.sh: `<brew install ffmpeg>`
