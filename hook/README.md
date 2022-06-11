@@ -12,6 +12,6 @@ The first thing we are going to do is learn how to use a Discord webhook. If you
 2. Paste your WEBHOOK URL where indicated in `hook.py`
 3. Save `hook.py` to your desktop in a folder named `seabe`
 4. From the Windows Command Prompt, type 
-   `python c:\users\YOUR-USERNAME\Desktop\seabe\hook.py "hello world!"`
+   - `python c:\users\YOUR-USERNAME\Desktop\seabe\hook.py "hello world!"`
 
 If you did everything right, your message should post to the channel you specified in Discord.
