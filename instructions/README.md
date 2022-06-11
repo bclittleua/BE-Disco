@@ -24,6 +24,8 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
 4. Create your own discord server
 5. Create a webhook:
    - `Server Settings > Integrations > Add Webook`
+   - Give it a fun name and assign a channel (#general is ok)
+   - click `Copy Webhook URL` and paste the URL to notepad (used later for hook.py)
 6. Goto https://discord.com/developers/applications
 7. Click `New Application`
 8. Give it a unique name
