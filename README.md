@@ -1,16 +1,25 @@
 # SEA-BE-22
 This repo contains several single-purpose examples of bots to run on a Discord server. You can and should combine all of the functions you desire into a single bot, but I separate them here for the sake of clarity.
 
+## Step 0: Getting Started
+- **instructions**
+  - how to install python and other dependencies for the projects in this repo 
+
+## Step 1: The Backbone
 - **hook**
   - NOT a bot, but the first step in making an interactive bot. 
+## Step 2: The Muscles
 <!--
  - **logviewer** 
   - this bot reads data from a log and returns it to chat
 - **sc_runner** 
   - this bot will run a script from a predefined directory
 -->
+## Step 3: The Senses
 - **camera** 
   - this bot is for posting images and video from a live camera. ideal for lab or security setups.
+
+## On your own
 - **music** 
   - this bot will play requested music in a voice channel
 <!--
@@ -22,5 +31,4 @@ This repo contains several single-purpose examples of bots to run on a Discord s
   -  most of the above foolishly combined into a single bot
 -->
 
-- **instructions**
-  - how to install python and other dependencies for the projects in this repo 
+
