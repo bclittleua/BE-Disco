@@ -13,7 +13,7 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
     - Discord lib(s): `pip install discord`
     - Request tools: `pip install requests`
     - Youtube tools lib: `pip install youtube_dl`    
-6. When complete, verify in command prompt with: `pip list`
+6. When complete, verify again in command prompt with: `pip list`
 
 # First Time Discord Setup
 1. First create a discord account at https://discord.com/. 
