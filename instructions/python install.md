@@ -14,7 +14,7 @@
 
     
 # Not Required:
-    - music bot requires the ffmpeg codec to function.
-        - windows users can find instructions here: https://www.wikihow.com/Install-FFmpeg-on-Windows
-        - linux users can install with a package manager like apt: <apt-get install ffmpeg>
-        - mac users can also install with a package manager, but need to install a package manager first. I recommend homebrew at http://brew.sh: <brew install ffmpeg>.
+- music bot requires the ffmpeg codec to function.
+    - windows users can find instructions here: https://www.wikihow.com/Install-FFmpeg-on-Windows
+    - linux users can install with a package manager like apt: <apt-get install ffmpeg>
+    - mac users can also install with a package manager, but need to install a package manager first. I recommend homebrew at http://brew.sh: <brew install ffmpeg>.
