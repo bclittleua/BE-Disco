@@ -16,7 +16,7 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
 6. When complete, verify with: `<pip list>`
 
     
-# Not Required:
+## Not Required:
 - The music bot requires the ffmpeg codec to function.
     - Windows users can find instructions here: https://www.wikihow.com/Install-FFmpeg-on-Windows
     - Linux users can install with a package manager like apt: `<apt-get install ffmpeg>`
