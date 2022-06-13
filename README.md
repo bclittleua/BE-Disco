@@ -6,21 +6,21 @@ This repo contains several single-purpose examples of bots to run on a Discord s
   - How to install Python and other dependencies for the projects in this repo. 
 
 ## Step 1: The Backbone
-- **Hook**
+- **[Hook](/hook)**
   - NOT a bot, but the first step in making a bot interactive. 
  
 ## Step 2: The Muscles
- - **Logviewer** 
+ - **[Logviewer](/logviewer)** 
    - This bot runs a script, reads data from a log, and returns it to chat.
 
 ## Step 3: The Senses
-- **Camera** 
+- **[Camera](/camera)** 
   - This bot is for posting images and video from a live camera. Ideal for lab or security setups.
   
   <!-- **Sensor** Changes bot status based on sensor status--> 
 
 ## On your own
-- **Music** 
+- **[Music](/music)** 
   - This bot will play requested music in a voice channel.
 
 <!--
