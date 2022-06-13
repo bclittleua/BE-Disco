@@ -44,7 +44,7 @@ BEST USED WITH A RASPBERRY PI
    usbipd &
    su admin
    ```
-   - last line runs usbipd in background before switching users
+   - second to last line runs usbipd in background before switching users
 
 3. Back in Powershell:
    ```
