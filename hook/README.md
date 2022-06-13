@@ -27,7 +27,7 @@ Windows Debian users: Make sure you are not root by typing `su admin` (the usern
 8. Save the file by typing `ctrl+x` to close, and press `y` and `enter` to save.
 9. To test, type:
    - `python hook.py "hello world!"`
-   - NOTE: you must be in the /bin folder to call the file like this. If you are not in the /bin folder you must specify the path to the file
+   - NOTE: you must be in the /bin folder to call the file like this. If you are not in the /bin folder you must specify the path to the file like so:
      - `python /home/admin/bin/hook.py "hello world!"`
 
 If you did everything right, your message should post to the channel you specified in Discord.
