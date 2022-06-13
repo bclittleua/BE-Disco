@@ -23,7 +23,7 @@ async def on_message(message):
         await channel.send(open('/home/admin/bin/lview/weather.txt').read())
 ###########################################################################
 token = ""
-with open("/home/admin/bin/tok.en") as file:
+with open("/home/admin/bin/lview/tok.en") as file:
     token= file.read()
 client.run(token)
 ###########################################################################
