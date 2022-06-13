@@ -13,17 +13,16 @@ This repo contains several single-purpose examples of bots to run on a Discord s
  - **[Logviewer](/logviewer)** 
    - This bot runs a script, reads data from a log, and returns it to chat.
 
-## Step 3: The Senses
+## On your own
 - **[Camera](/camera)** 
   - This bot is for posting images and video from a live camera. Ideal for lab or security setups.
-  
-  <!-- **Sensor** Changes bot status based on sensor status--> 
-
-## On your own
+  - 
 - **[Music](/music)** 
   - This bot will play requested music in a voice channel.
 
 <!--
+- **pir**
+  - utilizes a cheap PIR sensor and a raspberry pi to detect motion and updates bot status accordingly
 - **reactor** 
   - this bot will assign roles in a discord channel based on your reactions
 - **steamer** 
