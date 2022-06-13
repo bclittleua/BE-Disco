@@ -19,9 +19,9 @@ Windows Debian users: Make sure you are not root by typing `su admin` (the usern
 1. Copy contents of `hook.py` (or `hook_nc.py`) code to your PC, use notepad or [notepad++](https://notepad-plus-plus.org/downloads/)
 2. Type `cd` to go to your home directory
 3. Make a new folder named 'bin', type `mkdir bin`
-4. Navigate to that bin by typing `cd bin`
+4. Navigate to the new folder by typing `cd bin`
 5. Create a new file, type `sudo nano hook.py`
-   - This opens the 'nano' editor, just like a notepad
+   - This opens the 'nano' editor, just like a notepad, and will not save without `sudo`!
 6. Paste the hook.py code into nano
 7. Paste your WEBHOOK URL where indicated in `hook.py`
 8. Save the file by typing `ctrl+x` to close, and press `y` and `enter` to save.
