@@ -26,6 +26,7 @@ The best method to use all the tools in this repo is to install Windows Subsyste
 3. Type `apt-get update` to update package manager
 4. Installing Python3.x with `apt` package manager:
    - type `apt-get install python-is-python3` to install latest version
+   - type `python --version` to verify python3.x installed correctly, must be 3.4 or greater!
 5. Install the Python package manager `pip`:
    - type `apt-get install pip`
    - update pip by typing `pip install --upgrade pip`
