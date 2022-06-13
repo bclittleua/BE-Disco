@@ -19,7 +19,7 @@ async def on_message(message):
         await channel.send(open('/path/to/your/files/weather.txt').read())
 ###########################################################################
 token = ""
-with open("tok.en") as file:
+with open("/path/to/your/files/tok.en") as file:
     token= file.read()
 client.run(token)
 ###########################################################################
