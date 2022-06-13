@@ -27,21 +27,25 @@ BEST USED WITH A RASPBERRY PI
    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
    ```
    - [download+install wsl2 update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
-
    `wsl --set-default-version 2`
     - *if this fails, find c:\users\USERNAME\appdata\local\packages\thedebianproject...\localstate
     - rt-click, properties, advanced, uncheck `compress contents to save space`
-
-   `wsl --update`
-
+   ```
+   wsl --update
+   wsl --shutdown
+   ```
    - [download+install usbipd for windows](https://github.com/dorssel/usbipd-win/releases/download/v2.3.0/usbipd-win_2.3.0.msi)
 
-In Debian console:
-```
-sudo -i
-apt-get install usbipd
-```
+2. In Debian console:
+   ```
+   sudo -i
+   apt-get install usbipd
+   ```
 
+3. Back in Powershell:
+   ```
+   -
+   ```
 
 
 
