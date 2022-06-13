@@ -15,11 +15,12 @@ The best method to use all the tools in this repo is to install Windows Subsyste
    - Click the `Get` button
    - Allow install to complete (no reboot required here)
 6. You should now see `Debian` under your Start Menu. Click to run!
+7. Open Debian from your start menu (first use will take a few minutes to setup)
+   - choose a username, use `admin`
+   - create a password when prompted
 
 ## Installing Python and Dependencies
-1. WINDOWS: Open Debian from your start menu (first use will take a few minutes to setup)
-   - choose a username, i.e. `admin`
-   - create a password when prompted
+1. WINDOWS: Open Debian
    MAC/Linux: Open a console to command line 
 2. Make yourself a root user by typing `sudo -i`
 3. Type `sudo apt-get update` to update package manager
