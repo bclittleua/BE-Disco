@@ -1,6 +1,6 @@
-# Windows Setup
+# Setting up Python and Dependencies
 
-## Installing Linux!
+## For Windows Users Only, Installing Linux!
 The best method to use all the tools in this repo is to install Windows Subsystem for Linux (WSL), which allows you to run a Linux OS in a window. That sounds complicated, but it is very easy:
 1. Turn on Windows Dev mode, click `Start Menu > Settings > Update & Security > For Developers`
    ![](https://www.groovypost.com/wp-content/uploads/2016/05/bash-1.png)
@@ -16,8 +16,22 @@ The best method to use all the tools in this repo is to install Windows Subsyste
 7. You should now see `Debian` under your Start Menu. Click to run!
 
 ## Installing Python and Dependencies
-1. Open Debian
-2. Installing Python3.x with `apt` package manager:
+1. Open Debian (first use will take a few minutes to setup)
+   - choose a username, i.e. `admin`
+   - create a password when prompted
+2. type `sudo apt-get update` to update package manager
+3. Installing Python3.x with `apt` package manager:
+   - type `apt search python3.*`
+   - locate latest version in the list, i.e. `python3.9/stable` for 3.9
+   - type `sudo apt-get install python3.9` or latest version
+4. Install the Python package manager `pip`:
+   - type `sudo apt-get install pip`
+   - update pip by typing `pip install --upgrade pip`
+5. Installing dependencies for projects in this repo:
+    - Discord lib(s): `pip install discord`
+    - Request tools: `pip install requests`
+    - Youtube tools lib: `pip install youtube_dl`    
+6. When complete, verify dependencies were installed by typing `pip list`
 
 
 
