@@ -1,7 +1,28 @@
-# Installing Python 3.4+
-For Windows, Mac OSX, Linux, and Raspberry Pi
+# Windows Setup
+
+## Installing Linux!
+The best method to use all the tools in this repo is to install Windows Subsystem for Linux (WSL), which allows you to run a Linux OS in a window. That sounds complicated, but it is very easy:
+1. Turn on Windows Dev mode, click `Start Menu > Settings > Update & Security > For Developers`
+   ![](https://www.groovypost.com/wp-content/uploads/2016/05/bash-1.png)
+2. Open optionalfeatures menu, open start menu and type `optionalfeatures`, then click on the Best Matched 'Run command'
+3. Find WSL, check the box, and click `OK`
+   ![](https://www.groovypost.com/wp-content/uploads/2016/05/bash-2.png)
+5. Allow Install to complete and Reboot when prompted.
+6. Install the Debian Linux distro 
+   - Goto the [Windows Store](https://aka.ms/wslstore)
+   - Click on Debian
+   - Click the `Get` button
+   - Allow install to complete (no reboot required here)
+7. You should now see `Debian` under your Start Menu. Click to run!
+
+## Installing Python and Dependencies
+1. Open Debian
+2. Installing Python3.x with `apt` package manager:
 
 
+
+<!--
+## Python for Windows method 2
 1. Download latest version here: https://www.python.org/downloads/
 2. Run the installer
     - Be sure to check box that says 'Add Python 3.x to PATH' for windows
@@ -14,6 +35,7 @@ For Windows, Mac OSX, Linux, and Raspberry Pi
     - Request tools: `pip install requests`
     - Youtube tools lib: `pip install youtube_dl`    
 6. When complete, verify again in command prompt with: `pip list`
+-->
 
 # First Time Discord Setup
 1. First create a discord account at https://discord.com/. 
