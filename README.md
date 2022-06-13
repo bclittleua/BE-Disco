@@ -35,3 +35,4 @@ This repo contains several single-purpose examples of bots to run on a Discord s
 ## Useful links
 - [The Discord.py project](https://discordpy.readthedocs.io/en/stable/)
 - [Motion for Linux](https://motion-project.github.io/)
+- [Bash Command Cheat Sheet](https://www.educative.io/blog/bash-shell-command-cheat-sheet)
