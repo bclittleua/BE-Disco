@@ -2,7 +2,7 @@
 
 The ability to read data from logs on the fly is extremely valid for sensitive experiments. This can be further expanded by having a script read log files regularly (via cron) and sending alerts when sensor values are outside of specified limit. 
 
-For now we lack a dynamic sensor log, so we are going to make a file to read on demand. To do so, we first create a BASH script `getwttr.sh` to fetch local [weather data](wttr.in) using the cURL tool you installed in the [instructions](../instructions). The Bash script writes the data it fetches to a file, `weather.txt`. The `lview.py` bot, with the `.weather` command, 1) runs the bash script, 2) waits a second, 3) then reads and sends the contents of weather.txt.
+For now we lack a dynamic sensor log, so we are going to make a file to read on demand. To do so, we first create a BASH script `getwttr.sh` to fetch local [weather data](http://wttr.in) using the cURL tool you installed in the [instructions](../instructions). The Bash script writes the data it fetches to a file, `weather.txt`. The `lview.py` bot, with the `.weather` command, 1) runs the bash script, 2) waits a second, 3) then reads and sends the contents of weather.txt.
 
 ## Instructions
 1. Open the linux console (Debian for Windows, Console for Mac/Linux)
