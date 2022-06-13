@@ -80,8 +80,8 @@ The best method to use all the tools in this repo is to install Windows Subsyste
     - https://discord.com/api/oauth2/authorize?client_id=0000000000000000&permissions=8&scope=bot 
     - replace all the zeros in this URL with the client_id you copied earlier
 
-### Optional:
+
+# Optional Stuff:
 - The music bot requires the ffmpeg codec to function.
-    - Windows users can find instructions here: https://www.wikihow.com/Install-FFmpeg-on-Windows
-    - Linux users can install with a package manager like apt: `apt-get install ffmpeg`
+    - Windows/Linux users can install with a package manager like apt: `apt-get install ffmpeg`
     - Mac users can also install with a package manager, but need to install a package manager first. I recommend Homebrew at http://brew.sh: `brew install ffmpeg`
