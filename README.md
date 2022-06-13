@@ -31,3 +31,5 @@ This repo contains several single-purpose examples of bots to run on a Discord s
 -->
 
 
+## Useful links
+- [The Discord.py project](https://discordpy.readthedocs.io/en/stable/)
