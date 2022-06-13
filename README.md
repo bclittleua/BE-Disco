@@ -17,10 +17,7 @@ This repo contains several single-purpose examples of bots to run on a Discord s
 - **Camera** 
   - This bot is for posting images and video from a live camera. Ideal for lab or security setups.
   
-  <!--
-- **Sensor**
-  - Changes bot status based on sensor status
-  --> 
+  <!-- **Sensor** Changes bot status based on sensor status--> 
 
 ## On your own
 - **Music** 
