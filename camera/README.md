@@ -22,9 +22,10 @@ BEST USED WITH A RASPBERRY PI
 
 ## Getting USB devices to work on WSL/Debian
 Using Powershell with admin privs:
-`dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
-`dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
-
+```
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
 [download+install wsl2 update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
 `wsl --set-default-version 2`
@@ -36,9 +37,10 @@ wsl --update
 [download+install usbipd for windows](https://github.com/dorssel/usbipd-win/releases/download/v2.3.0/usbipd-win_2.3.0.msi)
 
 In Debian console:
-`sudo -i`
-`apt-get install usbipd`
-
+```
+sudo -i
+apt-get install usbipd
+```
 
 
 ResourceLinks:
