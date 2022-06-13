@@ -16,6 +16,7 @@ This repo contains several single-purpose examples of bots to run on a Discord s
 ## Step 3: The Senses
 - **Camera** 
   - This bot is for posting images and video from a live camera. Ideal for lab or security setups.
+  
   <!--
 - **Sensor**
   - Changes bot status based on sensor status
@@ -24,6 +25,7 @@ This repo contains several single-purpose examples of bots to run on a Discord s
 ## On your own
 - **Music** 
   - This bot will play requested music in a voice channel.
+
 <!--
 - **reactor** 
   - this bot will assign roles in a discord channel based on your reactions
