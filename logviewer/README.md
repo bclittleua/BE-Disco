@@ -18,4 +18,17 @@ For now we lack a dynamic sensor log, so we are going to make a file to read on 
 9. You can test run the script like so:
    - run with `./getwttr.sh`
    - check output with `cat weather.txt`
-10. 
+10. Create the python script, type `sudo nano lview.py`
+11. Copy the contents of lview.py from github to your computer
+12. Save the script with `ctrl+x`, `y`, and `enter`
+13. For the sake of convenience, let's also modify lview.py to be executable so it doesn't require a password to run
+    - Type `sudo chmod +x lview.py`
+14. Create a new tok.en file and copy your token from the [instructions](../instructions):
+    -Type `sudo nano tok.en` and paste your token. Close/save by repeating steps 7 or 12.
+15. Now we start the bot, which will run persistently until the process is killed (or it crashes! lol)
+    - Type `python lview.py`
+16. AT LAST! In your Discord server you should see your bot come online and post a message.
+17. Type `.help` to see your help list
+18. Type `.weather` to run our bash script, read the long, and post the result to your channel.
+
+Finally, you have created a bot (not just a one way webhook). Now you are primed to create an interactive bot and there are countless possibilities for what to do next. Your robot army isn't going to build itself, yet!
