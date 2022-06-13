@@ -6,14 +6,15 @@ The best method to use all the tools in this repo is to install Windows Subsyste
    ![](https://www.groovypost.com/wp-content/uploads/2016/05/bash-1.png)
 2. Open optionalfeatures menu, open start menu and type `optionalfeatures`, then click on the Best Matched 'Run command'
 3. Find WSL, check the box, and click `OK`
+
    ![](https://www.groovypost.com/wp-content/uploads/2016/05/bash-2.png)
-5. Allow Install to complete and Reboot when prompted.
-6. Install the Debian Linux distro 
+4. Allow Install to complete and Reboot when prompted.
+5. Install the Debian Linux distro 
    - Goto the [Windows Store](https://aka.ms/wslstore)
    - Click on Debian
    - Click the `Get` button
    - Allow install to complete (no reboot required here)
-7. You should now see `Debian` under your Start Menu. Click to run!
+6. You should now see `Debian` under your Start Menu. Click to run!
 
 ## Installing Python and Dependencies
 1. Open Debian (first use will take a few minutes to setup)
