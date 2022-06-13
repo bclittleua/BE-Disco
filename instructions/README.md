@@ -21,19 +21,20 @@ The best method to use all the tools in this repo is to install Windows Subsyste
    - choose a username, i.e. `admin`
    - create a password when prompted
    MAC/Linux: Open a console to command line 
-2. type `sudo apt-get update` to update package manager
-3. Installing Python3.x with `apt` package manager:
+2. Make yourself a root user by typing `sudo -i`
+3. Type `sudo apt-get update` to update package manager
+4. Installing Python3.x with `apt` package manager:
    - type `apt search python3.*`
    - locate latest version in the list, i.e. `python3.9/stable` for 3.9
    - type `sudo apt-get install python3.9` or latest version
-4. Install the Python package manager `pip`:
+5. Install the Python package manager `pip`:
    - type `sudo apt-get install pip`
    - update pip by typing `pip install --upgrade pip`
-5. Installing dependencies for projects in this repo:
+6. Installing dependencies for projects in this repo:
     - Discord lib(s): `pip install discord`
     - Request tools: `pip install requests`
     - Youtube tools lib: `pip install youtube_dl`    
-6. When complete, verify dependencies were installed by typing `pip list`
+7. When complete, verify dependencies were installed by typing `pip list`
 
 
 
