@@ -23,33 +23,17 @@ The best method to use all the tools in this repo is to install Windows Subsyste
 1. WINDOWS: Open Debian
    MAC/Linux: Open a console to command line 
 2. Make yourself a root user by typing `sudo -i`
-3. Type `sudo apt-get update` to update package manager
+3. Type `apt-get update` to update package manager
 4. Installing Python3.x with `apt` package manager:
-   - type `sudo apt-get install python-is-python3` to install latest version
+   - type `apt-get install python-is-python3` to install latest version
 5. Install the Python package manager `pip`:
-   - type `sudo apt-get install pip`
+   - type `apt-get install pip`
    - update pip by typing `pip install --upgrade pip`
 6. Installing dependencies for projects in this repo:
     - Discord lib(s): `pip install discord`
     - Request tools: `pip install requests`
     - Youtube tools lib: `pip install youtube_dl`    
 7. When complete, verify dependencies were installed by typing `pip list`
-
-<!--
-## Python for Windows method 2
-1. Download latest version here: https://www.python.org/downloads/
-2. Run the installer
-    - Be sure to check box that says 'Add Python 3.x to PATH' for windows
-![Example](https://miro.medium.com/max/1344/0*7nOyowsPsGI19pZT.png)
-3. After installer completes, verify in command prompt with: `python --version`
-4. Upgrade the "python installer program" a.k.a "pip": `python -m pip install --upgrade pip`
-    - When complete, verify in command prompt with: `pip list`
-5. Installing dependencies for projects in this repo:
-    - Discord lib(s): `pip install discord`
-    - Request tools: `pip install requests`
-    - Youtube tools lib: `pip install youtube_dl`    
-6. When complete, verify again in command prompt with: `pip list`
--->
 
 # First Time Discord Setup
 1. First create a discord account at https://discord.com/. 
