@@ -1,14 +1,6 @@
-#This is the same as music_cog.py, but I've added come functionality to the playlist, /q and /np
-#Also tweaked a few settings, see commented notes below for details.
-#Remember to update the /path/to/your/files!
-##############################################################################################
-##############################################################################################
-##########                         _      _____  #############################################
-##########   ___  __ _ _ __ ___   /_\     \_   \ #############################################
-##########  / __|/ _` | '_ ` _ \ //_\\     / /\/ #############################################
-##########  \__ \ (_| | | | | | /  _  \_/\/ /__  #############################################
-##########  |___/\__,_|_| |_| |_\_/ \_(_)____(_) #############################################
-#########################################################2021#################################
+# This is the same as music_cog.py, but I've added come functionality to the playlist, /q and /np
+# Also tweaked a few settings, see commented notes below for details.
+# Remember to update the /path/to/your/files!
 ##############################################################################################
 import discord, ffmpeg, subprocess
 from discord.ext import commands
