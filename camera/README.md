@@ -40,13 +40,23 @@ BEST USED WITH A RASPBERRY PI
    ```
    sudo -i
    apt-get install usbipd
+   apt-get install v4l-utils
+   usbipd &
+   su admin
    ```
+   - last line runs usbipd in background before switching users
 
 3. Back in Powershell:
    ```
-   -
+   usbipd wsl list
+   usbipd wsl attach --busid 6-2
    ```
+   - replace with busid of the webcam you want to use
 
+4. In Debian console:
+
+   `lsusb` to verify your webcam is detected
+   
 
 
 
