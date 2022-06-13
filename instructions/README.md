@@ -17,9 +17,10 @@ The best method to use all the tools in this repo is to install Windows Subsyste
 6. You should now see `Debian` under your Start Menu. Click to run!
 
 ## Installing Python and Dependencies
-1. Open Debian (first use will take a few minutes to setup)
+1. WINDOWS: Open Debian from your start menu (first use will take a few minutes to setup)
    - choose a username, i.e. `admin`
    - create a password when prompted
+   MAC/Linux: Open a console to command line 
 2. type `sudo apt-get update` to update package manager
 3. Installing Python3.x with `apt` package manager:
    - type `apt search python3.*`
