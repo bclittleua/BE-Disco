@@ -32,7 +32,7 @@ class music_cog(commands.Cog):
             nowplaying = open("nowplayingraw", "w")
             nowplaying.write(str(nextup))
             nowplaying.close()
-            result = subprocess.check_output("/path/to/your/npformatter.sh");
+            result = subprocess.check_output("/path/to/your/./npformatter.sh"); # ./npformatter.sh, the ./ is important!
             #remove first song from queue to advance the list
             self.music_queue.pop(0)
             self.vc.play(discord.FFmpegPCMAudio(m_url, **self.FFMPEG_OPTIONS), after=lambda e: self.play_next())
@@ -53,7 +53,7 @@ class music_cog(commands.Cog):
             nowplaying = open("nowplayingraw", "w")
             nowplaying.write(str(nextup))
             nowplaying.close()
-            result = subprocess.check_output("/path/to/your/npformatter.sh");
+            result = subprocess.check_output("/path/to/your/./npformatter.sh"); #be sure this is /path/./npformatter.sh or it won't run!
             #remove first song from queue to advance the list
             self.music_queue.pop(0)
             self.vc.play(discord.FFmpegPCMAudio(m_url, **self.FFMPEG_OPTIONS), after=lambda e: self.play_next())
