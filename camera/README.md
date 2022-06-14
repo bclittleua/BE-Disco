@@ -47,7 +47,7 @@
 4. In Debian console:
    `lsusb` to verify your webcam is detected
    
-This is as far as I can go so far. Despite detection in `lsubs`, the camera will not show as a valid UVC device under `ls /dev/video0` (no /video at all under /dev!). I don't think it's being loaded as part of ther kernel, and therefore `lsusb` is full of crap, lol.   
+This is as far as I can get so far! Despite detection in `lsusb`, the camera will not show as a valid UVC device under `ls /dev/video0` (no /video at all under /dev!). I don't think it's being loaded as part of the kernel, and therefore `lsusb` is full of crap, lol.   
   
 ## ResourceLinks:
 [microsoft.com dev blog](https://devblogs.microsoft.com/commandline/connecting-usb-devices-to-wsl/)
