@@ -3,7 +3,7 @@ Allows you to play music through a Discord voice channel. Check out the [documen
 # How to use
 1. Copy mbot.py, music_cog.py, & npformater.sh to same folder
 2. Copy your bot token to tok.en in same folder
-3. Edit 
+3. Edit mbot.py and paste your own channel ID on line , `channel = Bot.get_channel(copy-channel-ID-here)`
 4. Run mbot.py to start bot
 
 # Dependencies for Linux users (I use a RPi or Debian for WindowsWSL):
