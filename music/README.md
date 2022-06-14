@@ -1,6 +1,6 @@
 Allows you to play music through a Discord voice channel. Check out the [documentation](https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html#ext-commands-cogs) for details on what cogs are and how to use them. 
 
-*You only have to copy these files as you see them into a folder, change 1 line of code, and chmod 2 files.*
+*You only have to copy these files as you see them into a folder, change 1 line of code, and chmod 2 files!*
 
 # How to use
 1. Copy mbot.py, music_cog.py, & npformater.sh to same folder
