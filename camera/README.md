@@ -12,6 +12,7 @@
 - Motion is very useful but I don't know of a windows varitant. However, windows users can try WSL, which is a linux kernal that runs on top of windows, no stupid dual booting required! For details on WSL check the [instruction](../instructions) page.
   - Motion runs fine in WSL/Debian for me, but it runs without a camera, lol. There's some unofficial support for USB devices in WSL [here](https://devblogs.microsoft.com/commandline/connecting-usb-devices-to-wsl/). Also, [here](https://github.com/microsoft/WSL/issues/4103).
 
+As far as I can tell, you need to:
 1. Using Powershell with admin privs:
    ```
    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
