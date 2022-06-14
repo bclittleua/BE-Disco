@@ -20,7 +20,7 @@ Allows you to play music through a private Discord voice channel. Check out the 
 6. install PyNaCl: ```pip install pynacl```
 
 # Windows users:
-Run this in WSL and Debian. I have [instructions](../instructions) here get you started, it is super easy.
+Run this in WSL and Debian. I have [instructions](../instructions) here to get you started, it is super easy.
 
 # Set up your bot at https://discord.com/developers/applications/  
 - Make sure your bot is private, toggle Public to OFF
