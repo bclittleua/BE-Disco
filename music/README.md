@@ -4,8 +4,9 @@ Allows you to play music through a Discord voice channel. Check out the [documen
 1. Copy mbot.py, music_cog.py, & npformater.sh to same folder
 2. Copy your bot token to tok.en in same folder
 3. Edit mbot.py and paste your own channel ID on line `10`, `channel = Bot.get_channel(copy-channel-ID-here)`
-4. Modify privs for npformatter.sh and initiate.sh, `sudo chmod +rwx npformatter.sh` and `sudo chmod +rwx initiate.sh`
-5. Run/schedule ./initiate.sh to start bot
+4. Modify privs for npformatter.sh and initiate.sh, 
+   - `sudo chmod +rwx npformatter.sh` and `sudo chmod +rwx initiate.sh`
+6. Run/schedule ./initiate.sh to start bot
 
 # Dependencies for Linux users (I use a RPi or Debian for WindowsWSL):
   - for WSL, it's best to install apt and pip packages as root with `sudo -i`, toggle back with `su username`
