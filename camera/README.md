@@ -20,8 +20,8 @@ As far as I can tell, you need to:
    ```
    - [download+install wsl2 update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
    - `wsl --set-default-version 2`
-    - *if this fails, find c:\users\USERNAME\appdata\local\packages\thedebianproject...\localstate
-      - rt-click, properties, advanced, uncheck `compress contents to save space`
+     - *if this fails, find c:\users\USERNAME\appdata\local\packages\thedebianproject...\localstate
+     - then rt-click localstate folder, properties, advanced, uncheck `compress contents to save space`
    ```
    wsl --update
    wsl --shutdown
