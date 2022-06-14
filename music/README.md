@@ -1,10 +1,10 @@
 Allows you to play music through a Discord voice channel. Check out the [documentation](https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html#ext-commands-cogs) for details on what cogs are and how to use them.
 
 # How to use
-1. Copy mbot.py and music_cog.py (OR mbot, music_cog2.py, & npformater.sh) to same folder
-   - music_cog2.py has some custom features, WIP  
+1. Copy mbot.py, music_cog.py, & npformater.sh to same folder
 2. Copy your bot token to tok.en in same folder
-3. Run mbot.py to start bot
+3. Edit 
+4. Run mbot.py to start bot
 
 # Dependencies for Linux users (I use a RPi or Debian for WindowsWSL):
   - for WSL, it's best to install apt and pip packages as root with `sudo -i`, toggle back with `su username`
