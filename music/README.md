@@ -6,12 +6,14 @@ Allows you to play music through a Discord voice channel. Check out the [documen
 2. Copy your bot token to tok.en in same folder
 3. Run mbot.py to start bot
 
-# Dependencies for Linux users (I use a RPi):
+# Dependencies for Linux users (I use a RPi or Debian for WindowsWSL):
+  - for WSL, it's best to install apt and pip packages as root with `sudo -i`, toggle back with `su username`
 1. the discord lib requires python 3.4 or better
 2. install ffmpeg with apt: ```apt-get install ffmpeg```
 3. install ffmpeg support for python with: ```pip install ffmpeg```
 4. install discord for python with: ```pip install discord```
 5. install voice_client support for python with: ```python -m pip install -U discord.py[voice]```
+6. install PyNaCl: ```pip install pynacl```
 
 # Windows users:
 I'm not sure what is different in Windows other than installing and referencing FFmpeg. I run using the powershell and could probably keep alive with taskscheduler if I didn't already have the RPi solution:
