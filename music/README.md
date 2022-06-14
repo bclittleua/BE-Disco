@@ -1,4 +1,4 @@
-Allows you to play music through a Discord voice channel. Check out the [documentation](https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html#ext-commands-cogs) for details on what cogs are and how to use them. For private use only.
+Allows you to play music through a private Discord voice channel. Check out the [documentation](https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html#ext-commands-cogs) for details on what cogs are and how to use them. 
 
 *You only have to copy these files as you see them into a folder, change 1 line of code, and chmod 2 files!*
 
