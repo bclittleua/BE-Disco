@@ -20,7 +20,7 @@ BEST USED WITH A RASPBERRY PI
 
 
 
-## Getting USB devices to work on WSL/Debian
+## Getting USB devices to work on WSL/Debian (WORK IN PROGRESS)
 1. Using Powershell with admin privs:
    ```
    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
