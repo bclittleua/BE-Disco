@@ -19,7 +19,7 @@ As far as I can tell, you need to:
    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
    ```
    - [download+install wsl2 update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
-   `wsl --set-default-version 2`
+   - `wsl --set-default-version 2`
     - *if this fails, find c:\users\USERNAME\appdata\local\packages\thedebianproject...\localstate
       - rt-click, properties, advanced, uncheck `compress contents to save space`
    ```
@@ -46,7 +46,7 @@ As far as I can tell, you need to:
    - replace with busid of the webcam you want to use
 
 4. In Debian console:
-   `lsusb` to verify your webcam is detected
+   - `lsusb` to verify your webcam is detected
    
 This is as far as I can get so far! Despite detection in `lsusb`, the camera will not show as a valid UVC device under `ls /dev/video0` (no /video at all under /dev!). I don't think it's being loaded as part of the kernel, and therefore `lsusb` is full of crap, lol.   
   
