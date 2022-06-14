@@ -20,12 +20,7 @@ Allows you to play music through a Discord voice channel. Check out the [documen
 6. install PyNaCl: ```pip install pynacl```
 
 # Windows users:
-I'm not sure what is different in Windows other than installing and referencing FFmpeg. I run using the powershell and could probably keep alive with taskscheduler if I didn't already have the RPi solution:
-- The filepaths *must* all be changed to windows format, i.e. `C:\Users\YOUR-WINDOWS-USERNAME\Desktop\seabe\music_bot.py`
-- Install Python for Windows: https://github.com/bclittleua/SEA-BE-22/tree/main/instructions
-- Download and install FFmpeg here, note the install path: https://www.ffmpeg.org/download.html
-- Do steps 3, 4, and 5 for linux users (above) from your Windows Command Prompt.
-
+Run this in WSL and Debian. I have [instructions](../instructions) here get you started, it is super easy.
 
 # Set up your bot at https://discord.com/developers/applications/  
 - Make sure your bot is private, toggle Public to OFF
