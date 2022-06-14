@@ -45,7 +45,7 @@ async def rstmbot(ctx):
     sys.exit()
 ###########################################################################
 token = ""
-with open("toke.n") as file:
+with open("/home/admin/bin/mbot/tok.en") as file:
     token= file.read()
 Bot.run(token)
 ###########################################################################
