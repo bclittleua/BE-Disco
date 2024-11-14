@@ -64,7 +64,7 @@ The best method to use all the tools in this repo is to install Windows Subsyste
 9. Click `Bot` on left hand menu
 10. ~click on `Add Bot`,~    
 11. ~then `Yes, do it!`~
-12. Click on `Reset Token`
+12. Click on `Reset Token`, then `Yes, do it!`
 13. Copy the token ID to notepad (used later for `tok.en`)
 14. Toggle 'Public Bot' to OFF
 15. Toggle 'Presence Intent' to ON
