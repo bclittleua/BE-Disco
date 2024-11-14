@@ -40,7 +40,8 @@ The best method to use all the tools in this repo is to install Windows Subsyste
    - update pip by typing `pip install --upgrade pip`
 6. Installing dependencies for projects in this repo:
     - Discord lib(s): `pip install discord`
-    - Request tools: `pip install requests`
+    - Discord Webhook: 'pip install discord-webhook'
+    - Request tools: `pip install requests`    - 
     - Youtube tools lib: `pip install youtube_dl`
     - Curl, command line web browswer: `apt-get install curl`    
 7. When complete, verify dependencies were installed by typing `pip list`
