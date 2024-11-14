@@ -1,8 +1,8 @@
 import sys
-from discord import Webhook, RequestsWebhookAdapter 
+from discord_webhook import DiscordWebhook
 
 def send (message):
-    webhook = Webhook.from_url("COPY-WEBHOOK-URL-HERE", adapter=RequestsWebhookAdapter()) 
-    webhook.send(message) 
+    webhook = DiscordWebhook(url="COPY-YOUR-WEBHOOK-URL-HERE", content=message)
+    response = webhook.execute()
 
 send( sys.argv[1] )
