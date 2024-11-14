@@ -62,8 +62,8 @@ The best method to use all the tools in this repo is to install Windows Subsyste
 7. Click `New Application`
 8. Give it a unique name
 9. Click `Bot` on left hand menu
-10. click on `Add Bot`, 
-11. then `Yes, do it!`
+10. ~click on `Add Bot`,~    
+11. ~then `Yes, do it!`~
 12. Click on `Reset Token`
 13. Copy the token ID to notepad (used later for `tok.en`)
 14. Toggle 'Public Bot' to OFF
