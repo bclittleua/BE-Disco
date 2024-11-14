@@ -1,3 +1,8 @@
+/*
+I include a version of the discord bot 'log viewer' in C++ as a comparison to how it works in python. The idea is to illustrate how much simpler python is, especially for the unitiated.
+-The Professor
+*/
+
 #include <iostream>
 #include <fstream>
 #include <string>
