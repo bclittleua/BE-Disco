@@ -1,4 +1,4 @@
-# SEA-BE-22
+# BE-Disco
 This repo contains several single-purpose examples of bots to run on a Discord server. You can and should combine all of the functions you desire into a single bot, but I separate them here for the sake of clarity.
 
 ## Step 0: Getting Started
