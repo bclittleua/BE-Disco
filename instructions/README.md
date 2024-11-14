@@ -1,12 +1,11 @@
 # Setting up Python and Dependencies
 
-## For Windows Users Only, Installing Linux!
+## For Windows Users Only, OPTION 1: Installing Windows Subsystem for Linux
 The best method to use all the tools in this repo is to install Windows Subsystem for Linux (WSL), which allows you to run a Linux OS in a window. That sounds complicated, but it is very easy:
 1. Turn on Windows Dev mode, click `Start Menu > Settings > Update & Security > For Developers`
    ![](https://www.groovypost.com/wp-content/uploads/2016/05/bash-1.png)
 2. Open optionalfeatures menu, open start menu and type `optionalfeatures`, then click on the Best Matched 'Run command'
 3. Find WSL, check the box, and click `OK`
-
    ![](https://www.groovypost.com/wp-content/uploads/2016/05/bash-2.png)
 4. Allow Install to complete and Reboot when prompted.
 5. Install the Debian Linux distro 
@@ -19,7 +18,16 @@ The best method to use all the tools in this repo is to install Windows Subsyste
    - choose a username, use `admin`
    - create a password when prompted
 
-## Installing Python and Dependencies
+## For Windows Users Only, OPTION 2: Install Python for Windows
+1. Download the latest Stable Release of the 64-bit Python installer here: ![](https://www.python.org/downloads/windows/)
+2. Follow the instructions here to complete installation: ![](https://docs.python.org/3/using/windows.html#windows-full)
+   - IMPORTANT! Be sure to check the box to 'Add Python 3.x to PATH'
+
+## Mac OSX Users, how to install Python:
+1. Download the latest Stable Release of Python from here (top of left side column): ![](https://www.python.org/downloads/macos/)
+2. Look at this page for step-by-step instructions: ![](https://docs.python.org/3/using/mac.html) (no sense copying all that here, lol)
+
+# Installing Python and Dependencies
 1. WINDOWS: Open Debian
    MAC/Linux: Open a console to command line 
 2. Make yourself a root user by typing `sudo -i`
