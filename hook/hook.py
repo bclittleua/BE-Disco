@@ -20,14 +20,14 @@
 # need this ↓ to parse the argument/message from the CLI to send, line 26
 import sys
 # required ↓ to use the webhook function from discord tools lib
-from discord import Webhook, RequestsWebhookAdapter 
+from discord_webhook import DiscordWebhook
 
 # the following indented lines define the 'send' function called on line 26
 def send (message):
     # tells ↓ webhook function where to go
-    webhook = Webhook.from_url("COPY-WEBHOOK-URL-HERE", adapter=RequestsWebhookAdapter()) 
+    webhook = DiscordWebhook(url="COPY-WEBHOOK-URL-HERE", content=message) 
     # functionally ↓: use webhook to send the first arg after you type ..\hook.py, the "message content"
-    webhook.send(message) 
-
+    response = webhook.execute()
+    
 # everthing before now is just the set up, the next line is the only 'command' this script performs
 send( sys.argv[1] )
