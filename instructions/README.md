@@ -19,16 +19,16 @@ The best method to use all the tools in this repo is to install Windows Subsyste
    - create a password when prompted
 
 ## For Windows Users Only, OPTION 2: Install Python for Windows
-1. Download the latest Stable Release of the 64-bit Python installer here: ![](https://www.python.org/downloads/windows/)
-2. Follow the instructions here to complete installation: ![](https://docs.python.org/3/using/windows.html#windows-full)
+1. Download the latest Stable Release of the 64-bit Python installer here: [](https://www.python.org/downloads/windows/)
+2. Follow the instructions here to complete installation: [](https://docs.python.org/3/using/windows.html#windows-full)
    - IMPORTANT! Be sure to check the box to 'Add Python 3.x to PATH'
 
 ## Mac OSX Users, how to install Python:
-1. Download the latest Stable Release of Python from here (top of left side column): ![](https://www.python.org/downloads/macos/)
-2. Look at this page for step-by-step instructions: ![](https://docs.python.org/3/using/mac.html) (no sense copying all that here, lol)
+1. Download the latest Stable Release of Python from here (top of left side column): [](https://www.python.org/downloads/macos/)
+2. Look at this page for step-by-step instructions: [](https://docs.python.org/3/using/mac.html) (no sense copying all that here, lol)
 
 # Installing Python and Dependencies
-1. WINDOWS: Open Debian
+1. WINDOWS: Open DebianWSL (option 1), Command Prompt or Powershell (option 2)
    MAC/Linux: Open a console to command line 
 2. Make yourself a root user by typing `sudo -i`
 3. Type `apt-get update` to update package manager
