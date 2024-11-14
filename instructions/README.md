@@ -66,11 +66,12 @@ The best method to use all the tools in this repo is to install Windows Subsyste
 11. ~then `Yes, do it!`~
 12. Click on `Reset Token`, then `Yes, do it!`
 13. Copy the token ID to notepad (used later for `tok.en`)
-14. Toggle 'Public Bot' to OFF
+14. Toggle 'Public Bot' to ON
 15. Toggle 'Presence Intent' to ON
 16. Click on 'OAuth2' on left hand menu
-17. Copy Client ID to notepad
-18. Add new bot to your private server
+17. Check the box next to 'bot'
+18. Copy Client ID to notepad for record
+19. Copy the Generated URL for record, which should look like this:
     - https://discord.com/api/oauth2/authorize?client_id=0000000000000000&permissions=8&scope=bot 
     - replace all the zeros in this URL with the client_id you copied earlier (step 13)
 
