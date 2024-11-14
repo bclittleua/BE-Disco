@@ -71,7 +71,7 @@ The best method to use all the tools in this repo is to install Windows Subsyste
 17. Copy Client ID to notepad
 18. Add new bot to your private server
     - https://discord.com/api/oauth2/authorize?client_id=0000000000000000&permissions=8&scope=bot 
-    - replace all the zeros in this URL with the client_id you copied earlier
+    - replace all the zeros in this URL with the client_id you copied earlier (step 13)
 
 
 # Optional Stuff:
